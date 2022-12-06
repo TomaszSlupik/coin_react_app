@@ -1,0 +1,32 @@
+.entrance {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box {
+        position: relative;
+        width: 80%;
+        height: 600px;
+        background-image: url("../../../public/img/bitcoin_640.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-shadow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.65);
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .entrance {
+        &__box {
+            height: 300px;
+        }}
+}

@@ -1,0 +1,39 @@
+.main {
+    position:relative;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box {
+        position: relative;
+        width: 70%;
+        height: 600px;
+        overflow: auto;
+        &::-webkit-scrollbar {
+            width: 10px;
+            height: 100%;
+            border: 1px solid #4e42d4;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #4e42d4;
+            border-radius: 8px;
+          }
+        
+    }
+}
+
+.table {
+    color: white;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .main {
+        &__box {
+            height: 300px;
+        }}
+}
+
