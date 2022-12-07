@@ -1,18 +1,23 @@
 import React from 'react'
 import './Header.scss'
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import Entrance from '../Entrance/Entrance';
+import { Link } from 'react-router-dom';
+
+
+
 
 export default function Header() {
 
     const style = {
         coin: {
             cursor: 'pointer', color: '#4e42d4', fontSize: '3rem'
-        }
+        }, 
+        link: {textDecoration: 'none'}
     }
 
   return (
     <div>
+        <Link to="/" style={style.link}>
         <header className='header'>
                 <div className="header__box">
                     <div className="header__box-text">Aplikacja walutowa</div>
@@ -21,7 +26,8 @@ export default function Header() {
                     </div>
                 </div>
         </header>
-        <Entrance />
+        </Link>
+       
     </div>
   )
 }
