@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/coin_react_app/static/css/main.61793389.css",
+    "main.js": "/coin_react_app/static/js/main.3549e57f.js",
+    "static/media/bitcoin_640.jpg": "/coin_react_app/static/media/bitcoin_640.dcfe6d727c30837afaa8.jpg",
+    "index.html": "/coin_react_app/index.html",
+    "main.61793389.css.map": "/coin_react_app/static/css/main.61793389.css.map",
+    "main.3549e57f.js.map": "/coin_react_app/static/js/main.3549e57f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61793389.css",
+    "static/js/main.3549e57f.js"
+  ]
+}
