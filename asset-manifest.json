@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/coin_react_app/static/css/main.ecf33287.css",
-    "main.js": "/coin_react_app/static/js/main.05b9eef0.js",
+    "main.css": "/coin_react_app/static/css/main.79157aaf.css",
+    "main.js": "/coin_react_app/static/js/main.b3711a67.js",
     "static/media/bitcoin_640.jpg": "/coin_react_app/static/media/bitcoin_640.dcfe6d727c30837afaa8.jpg",
     "index.html": "/coin_react_app/index.html",
-    "main.ecf33287.css.map": "/coin_react_app/static/css/main.ecf33287.css.map",
-    "main.05b9eef0.js.map": "/coin_react_app/static/js/main.05b9eef0.js.map"
+    "main.79157aaf.css.map": "/coin_react_app/static/css/main.79157aaf.css.map",
+    "main.b3711a67.js.map": "/coin_react_app/static/js/main.b3711a67.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecf33287.css",
-    "static/js/main.05b9eef0.js"
+    "static/css/main.79157aaf.css",
+    "static/js/main.b3711a67.js"
   ]
 }
